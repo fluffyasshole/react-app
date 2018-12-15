@@ -1,0 +1,22 @@
+There are five major concepts of React:
+    1) Components
+    2) JSX (JavaScript XML)
+    3) Props & State
+    4) The component API
+    5) Component types
+
+1) How React Components work:
+            The original code is only 1 big component which makes up all the codebase consisting of smaller 
+            components. A common example of this is a simple HTML element called select as shown in code snippet 
+            below:
+
+            <select>
+                <option value="value1">Value 1</option>
+                <option value="value2">Value 2</option>
+                <option value="value3">Value 3</option>
+            </select>
+
+            A React element does not onl handle HTML code like traditional template but also includes all the
+            controls needed to control the output.
+
+            In React, a component is written with ES6 class which contains a render method that returns HTML
